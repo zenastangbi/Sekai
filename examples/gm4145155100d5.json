@@ -1,0 +1,7545 @@
+{
+  "video": {
+    "video_id": "gm4145155100d5",
+    "physical_group": "youtube:lfoTLeFooR4",
+    "source": "groundmore/lfoTLeFooR4_0451_0456",
+    "frames": [
+      {
+        "published_index": 0,
+        "source_frame_id": "frame_000000",
+        "image": "frames/gm4145155100d5/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000000_1.png",
+            "pixels": 166098,
+            "bbox_xyxy": [
+              709,
+              112,
+              1095,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000000_2.png",
+            "pixels": 6192,
+            "bbox_xyxy": [
+              532,
+              402,
+              651,
+              495
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000000_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 1,
+        "source_frame_id": "frame_000001",
+        "image": "frames/gm4145155100d5/000001.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000001_1.png",
+            "pixels": 160067,
+            "bbox_xyxy": [
+              656,
+              114,
+              1106,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000001_2.png",
+            "pixels": 6281,
+            "bbox_xyxy": [
+              532,
+              401,
+              652,
+              496
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000001_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 2,
+        "source_frame_id": "frame_000002",
+        "image": "frames/gm4145155100d5/000002.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000002_1.png",
+            "pixels": 149018,
+            "bbox_xyxy": [
+              657,
+              116,
+              1079,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000002_2.png",
+            "pixels": 6309,
+            "bbox_xyxy": [
+              532,
+              401,
+              652,
+              495
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000002_3.png",
+            "pixels": 1,
+            "bbox_xyxy": [
+              658,
+              350,
+              659,
+              351
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 3,
+        "source_frame_id": "frame_000003",
+        "image": "frames/gm4145155100d5/000003.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000003_1.png",
+            "pixels": 144804,
+            "bbox_xyxy": [
+              634,
+              117,
+              1044,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000003_2.png",
+            "pixels": 6284,
+            "bbox_xyxy": [
+              531,
+              401,
+              651,
+              495
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000003_3.png",
+            "pixels": 42,
+            "bbox_xyxy": [
+              634,
+              392,
+              641,
+              403
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 4,
+        "source_frame_id": "frame_000004",
+        "image": "frames/gm4145155100d5/000004.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000004_1.png",
+            "pixels": 142124,
+            "bbox_xyxy": [
+              638,
+              120,
+              1036,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000004_2.png",
+            "pixels": 6266,
+            "bbox_xyxy": [
+              533,
+              402,
+              644,
+              495
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000004_3.png",
+            "pixels": 1,
+            "bbox_xyxy": [
+              638,
+              446,
+              639,
+              447
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 5,
+        "source_frame_id": "frame_000005",
+        "image": "frames/gm4145155100d5/000005.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000005_1.png",
+            "pixels": 136406,
+            "bbox_xyxy": [
+              635,
+              123,
+              1024,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000005_2.png",
+            "pixels": 9724,
+            "bbox_xyxy": [
+              516,
+              353,
+              652,
+              458
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000005_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 6,
+        "source_frame_id": "frame_000006",
+        "image": "frames/gm4145155100d5/000006.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000006_1.png",
+            "pixels": 143728,
+            "bbox_xyxy": [
+              538,
+              126,
+              1018,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000006_2.png",
+            "pixels": 6615,
+            "bbox_xyxy": [
+              513,
+              277,
+              617,
+              413
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000006_3.png",
+            "pixels": 16,
+            "bbox_xyxy": [
+              577,
+              357,
+              583,
+              361
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 7,
+        "source_frame_id": "frame_000007",
+        "image": "frames/gm4145155100d5/000007.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000007_1.png",
+            "pixels": 146210,
+            "bbox_xyxy": [
+              543,
+              128,
+              1011,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000007_2.png",
+            "pixels": 6447,
+            "bbox_xyxy": [
+              525,
+              263,
+              634,
+              396
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000007_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 8,
+        "source_frame_id": "frame_000008",
+        "image": "frames/gm4145155100d5/000008.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000008_1.png",
+            "pixels": 151732,
+            "bbox_xyxy": [
+              548,
+              129,
+              1013,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000008_2.png",
+            "pixels": 8253,
+            "bbox_xyxy": [
+              524,
+              226,
+              637,
+              357
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000008_3.png",
+            "pixels": 2,
+            "bbox_xyxy": [
+              780,
+              138,
+              795,
+              150
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 9,
+        "source_frame_id": "frame_000009",
+        "image": "frames/gm4145155100d5/000009.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000009_1.png",
+            "pixels": 154476,
+            "bbox_xyxy": [
+              646,
+              77,
+              1016,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000009_2.png",
+            "pixels": 8540,
+            "bbox_xyxy": [
+              609,
+              80,
+              711,
+              247
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000009_3.png",
+            "pixels": 23,
+            "bbox_xyxy": [
+              781,
+              137,
+              818,
+              147
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 10,
+        "source_frame_id": "frame_000010",
+        "image": "frames/gm4145155100d5/000010.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000010_1.png",
+            "pixels": 144747,
+            "bbox_xyxy": [
+              651,
+              77,
+              1015,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000010_2.png",
+            "pixels": 9161,
+            "bbox_xyxy": [
+              719,
+              75,
+              851,
+              226
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000010_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 11,
+        "source_frame_id": "frame_000011",
+        "image": "frames/gm4145155100d5/000011.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000011_1.png",
+            "pixels": 143826,
+            "bbox_xyxy": [
+              648,
+              101,
+              1016,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000011_2.png",
+            "pixels": 9007,
+            "bbox_xyxy": [
+              720,
+              95,
+              830,
+              229
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000011_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 12,
+        "source_frame_id": "frame_000012",
+        "image": "frames/gm4145155100d5/000012.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000012_1.png",
+            "pixels": 141417,
+            "bbox_xyxy": [
+              656,
+              109,
+              1016,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000012_2.png",
+            "pixels": 8280,
+            "bbox_xyxy": [
+              725,
+              105,
+              822,
+              243
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000012_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 13,
+        "source_frame_id": "frame_000013",
+        "image": "frames/gm4145155100d5/000013.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000013_1.png",
+            "pixels": 140920,
+            "bbox_xyxy": [
+              647,
+              111,
+              1014,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000013_2.png",
+            "pixels": 7943,
+            "bbox_xyxy": [
+              719,
+              108,
+              827,
+              248
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000013_3.png",
+            "pixels": 1,
+            "bbox_xyxy": [
+              653,
+              229,
+              654,
+              230
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 14,
+        "source_frame_id": "frame_000014",
+        "image": "frames/gm4145155100d5/000014.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000014_1.png",
+            "pixels": 139966,
+            "bbox_xyxy": [
+              529,
+              114,
+              1010,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000014_2.png",
+            "pixels": 7726,
+            "bbox_xyxy": [
+              710,
+              111,
+              795,
+              255
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000014_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 15,
+        "source_frame_id": "frame_000015",
+        "image": "frames/gm4145155100d5/000015.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000015_1.png",
+            "pixels": 135380,
+            "bbox_xyxy": [
+              550,
+              127,
+              1005,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000015_2.png",
+            "pixels": 8564,
+            "bbox_xyxy": [
+              698,
+              116,
+              810,
+              257
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000015_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 16,
+        "source_frame_id": "frame_000016",
+        "image": "frames/gm4145155100d5/000016.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000016_1.png",
+            "pixels": 133648,
+            "bbox_xyxy": [
+              565,
+              135,
+              1000,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000016_2.png",
+            "pixels": 8133,
+            "bbox_xyxy": [
+              691,
+              119,
+              804,
+              257
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000016_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 17,
+        "source_frame_id": "frame_000017",
+        "image": "frames/gm4145155100d5/000017.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000017_1.png",
+            "pixels": 131254,
+            "bbox_xyxy": [
+              571,
+              187,
+              998,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000017_2.png",
+            "pixels": 9472,
+            "bbox_xyxy": [
+              691,
+              118,
+              832,
+              253
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000017_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 18,
+        "source_frame_id": "frame_000018",
+        "image": "frames/gm4145155100d5/000018.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000018_1.png",
+            "pixels": 135526,
+            "bbox_xyxy": [
+              573,
+              187,
+              1001,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000018_2.png",
+            "pixels": 10350,
+            "bbox_xyxy": [
+              697,
+              114,
+              846,
+              244
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000018_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 19,
+        "source_frame_id": "frame_000019",
+        "image": "frames/gm4145155100d5/000019.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000019_1.png",
+            "pixels": 138450,
+            "bbox_xyxy": [
+              564,
+              182,
+              1008,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000019_2.png",
+            "pixels": 10908,
+            "bbox_xyxy": [
+              707,
+              108,
+              863,
+              234
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000019_3.png",
+            "pixels": 0,
+            "bbox_xyxy": null
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 20,
+        "source_frame_id": "frame_000020",
+        "image": "frames/gm4145155100d5/000020.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000020_1.png",
+            "pixels": 142262,
+            "bbox_xyxy": [
+              577,
+              170,
+              1018,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000020_2.png",
+            "pixels": 10692,
+            "bbox_xyxy": [
+              733,
+              101,
+              891,
+              219
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000020_3.png",
+            "pixels": 299,
+            "bbox_xyxy": [
+              689,
+              373,
+              714,
+              403
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 21,
+        "source_frame_id": "frame_000021",
+        "image": "frames/gm4145155100d5/000021.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000021_1.png",
+            "pixels": 144763,
+            "bbox_xyxy": [
+              608,
+              168,
+              1033,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000021_2.png",
+            "pixels": 10332,
+            "bbox_xyxy": [
+              762,
+              95,
+              920,
+              205
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000021_3.png",
+            "pixels": 1673,
+            "bbox_xyxy": [
+              630,
+              290,
+              719,
+              393
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 22,
+        "source_frame_id": "frame_000022",
+        "image": "frames/gm4145155100d5/000022.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000022_1.png",
+            "pixels": 150629,
+            "bbox_xyxy": [
+              631,
+              167,
+              1057,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000022_2.png",
+            "pixels": 10757,
+            "bbox_xyxy": [
+              783,
+              89,
+              939,
+              197
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000022_3.png",
+            "pixels": 832,
+            "bbox_xyxy": [
+              671,
+              261,
+              746,
+              373
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 23,
+        "source_frame_id": "frame_000023",
+        "image": "frames/gm4145155100d5/000023.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000023_1.png",
+            "pixels": 158607,
+            "bbox_xyxy": [
+              660,
+              167,
+              1091,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000023_2.png",
+            "pixels": 10390,
+            "bbox_xyxy": [
+              808,
+              84,
+              964,
+              184
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000023_3.png",
+            "pixels": 1292,
+            "bbox_xyxy": [
+              713,
+              237,
+              798,
+              350
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 24,
+        "source_frame_id": "frame_000024",
+        "image": "frames/gm4145155100d5/000024.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000024_1.png",
+            "pixels": 165635,
+            "bbox_xyxy": [
+              681,
+              166,
+              1125,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000024_2.png",
+            "pixels": 10474,
+            "bbox_xyxy": [
+              827,
+              81,
+              984,
+              179
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000024_3.png",
+            "pixels": 2126,
+            "bbox_xyxy": [
+              760,
+              168,
+              857,
+              266
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 25,
+        "source_frame_id": "frame_000025",
+        "image": "frames/gm4145155100d5/000025.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000025_1.png",
+            "pixels": 174431,
+            "bbox_xyxy": [
+              689,
+              105,
+              1146,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000025_2.png",
+            "pixels": 10178,
+            "bbox_xyxy": [
+              840,
+              78,
+              997,
+              175
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000025_3.png",
+            "pixels": 1518,
+            "bbox_xyxy": [
+              824,
+              190,
+              903,
+              218
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 26,
+        "source_frame_id": "frame_000026",
+        "image": "frames/gm4145155100d5/000026.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000026_1.png",
+            "pixels": 177197,
+            "bbox_xyxy": [
+              693,
+              157,
+              1156,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000026_2.png",
+            "pixels": 10601,
+            "bbox_xyxy": [
+              846,
+              76,
+              1004,
+              175
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000026_3.png",
+            "pixels": 2220,
+            "bbox_xyxy": [
+              850,
+              180,
+              941,
+              218
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 27,
+        "source_frame_id": "frame_000027",
+        "image": "frames/gm4145155100d5/000027.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000027_1.png",
+            "pixels": 181019,
+            "bbox_xyxy": [
+              695,
+              152,
+              1163,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000027_2.png",
+            "pixels": 10678,
+            "bbox_xyxy": [
+              849,
+              74,
+              1006,
+              173
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000027_3.png",
+            "pixels": 2093,
+            "bbox_xyxy": [
+              858,
+              172,
+              954,
+              214
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 28,
+        "source_frame_id": "frame_000028",
+        "image": "frames/gm4145155100d5/000028.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000028_1.png",
+            "pixels": 181647,
+            "bbox_xyxy": [
+              697,
+              148,
+              1163,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000028_2.png",
+            "pixels": 10428,
+            "bbox_xyxy": [
+              851,
+              72,
+              1009,
+              170
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000028_3.png",
+            "pixels": 2611,
+            "bbox_xyxy": [
+              788,
+              165,
+              961,
+              671
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      },
+      {
+        "published_index": 29,
+        "source_frame_id": "frame_000029",
+        "image": "frames/gm4145155100d5/000029.jpg",
+        "width": 1280,
+        "height": 720,
+        "objects": [
+          {
+            "instance_id": "1",
+            "mask": "masks/gm4145155100d5/000029_1.png",
+            "pixels": 180714,
+            "bbox_xyxy": [
+              699,
+              150,
+              1160,
+              720
+            ]
+          },
+          {
+            "instance_id": "2",
+            "mask": "masks/gm4145155100d5/000029_2.png",
+            "pixels": 10828,
+            "bbox_xyxy": [
+              851,
+              70,
+              1012,
+              171
+            ]
+          },
+          {
+            "instance_id": "3",
+            "mask": "masks/gm4145155100d5/000029_3.png",
+            "pixels": 2238,
+            "bbox_xyxy": [
+              856,
+              166,
+              948,
+              206
+            ]
+          }
+        ],
+        "missing_annotation_ids": [],
+        "visibility_adjudications": []
+      }
+    ]
+  },
+  "queries": [
+    {
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "event_type": "fitting_head_eye_protection",
+      "target_role": "equipment",
+      "english": "Which items of head or eye protection are being fitted right now?",
+      "chinese": "当前正在往佩戴位置戴、或紧接着调整的头部或眼部防护装备。"
+    },
+    {
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "event_type": "fitting_head_eye_protection",
+      "target_role": "equipment",
+      "english": "Which items of head or eye protection has someone begun fitting during this video?",
+      "chinese": "截至当前，已经开始戴过的头部或眼部防护装备；戴好后仍符合。"
+    },
+    {
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "event_type": "fitting_head_eye_protection",
+      "target_role": "equipment",
+      "english": "Which item of head or eye protection was the most recent one someone began fitting?",
+      "chinese": "截至当前，最近一次开始戴的头部或眼部防护装备，按开始而非完成排序。"
+    },
+    {
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "english": "Which protective item was put on before the safety glasses?",
+      "chinese": "哪件防护装备是在护目镜之前戴上的？"
+    },
+    {
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "english": "Which protective item was the first one the person began putting on in this video?",
+      "chinese": "视频里最先开始戴的是哪件防护装备？"
+    }
+  ],
+  "events": {
+    "video_id": "gm4145155100d5",
+    "event_type": "fitting_head_eye_protection",
+    "condition_event_type": "fitting_head_eye_protection",
+    "candidate_ids": [
+      "2",
+      "3"
+    ],
+    "events": [
+      {
+        "event_id": "gm4145155100d5_e01",
+        "event_type": "fitting_head_eye_protection",
+        "participants": [
+          {
+            "instance_id": "1",
+            "role": "actor"
+          },
+          {
+            "instance_id": "2",
+            "role": "equipment"
+          }
+        ],
+        "start_interval": [
+          9,
+          9
+        ],
+        "occurrence_confirmed_at": 9,
+        "end_interval": [
+          17,
+          18
+        ],
+        "end_confirmed_at": 18,
+        "left_censored": false,
+        "support": [
+          {
+            "published_index": 9,
+            "frame_id": "frame_000009",
+            "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+            "observation_type": "positive_event"
+          },
+          {
+            "published_index": 18,
+            "frame_id": "frame_000018",
+            "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+            "observation_type": "post_event_context"
+          }
+        ]
+      },
+      {
+        "event_id": "gm4145155100d5_e02",
+        "event_type": "fitting_head_eye_protection",
+        "participants": [
+          {
+            "instance_id": "1",
+            "role": "actor"
+          },
+          {
+            "instance_id": "3",
+            "role": "equipment"
+          }
+        ],
+        "start_interval": [
+          27,
+          27
+        ],
+        "occurrence_confirmed_at": 27,
+        "end_interval": null,
+        "end_confirmed_at": null,
+        "left_censored": false,
+        "support": [
+          {
+            "published_index": 27,
+            "frame_id": "frame_000027",
+            "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+            "observation_type": "positive_event"
+          }
+        ]
+      }
+    ],
+    "uncertain": [],
+    "title": "先戴安全帽，再戴护目镜",
+    "criterion": "本题只看头部和眼部防护装备。首次清楚看到装备接触其佩戴位置、开始往头上或眼前戴时算发生；包含紧接着的手动调整，手离开并停止调整后结束。拿在手上或从桌上拿起尚不算。已经戴着但不再调整，不属于正在戴的动作。曾经和最近一次都按同一首次可确认发生帧计算，不要求戴好；护目镜到末帧仍在调整，不推断之后完成。答案是装备，佩戴者另记为动作执行者。"
+  },
+  "labels": [
+    {
+      "label_id": "gm4145155100d5_q01_f000000",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 0,
+      "frame_id": "frame_000000",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000000",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 0,
+      "frame_id": "frame_000000",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000000",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 0,
+      "frame_id": "frame_000000",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000001",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 1,
+      "frame_id": "frame_000001",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000001",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 1,
+      "frame_id": "frame_000001",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000001",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 1,
+      "frame_id": "frame_000001",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000002",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 2,
+      "frame_id": "frame_000002",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000002",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 2,
+      "frame_id": "frame_000002",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000002",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 2,
+      "frame_id": "frame_000002",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000003",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 3,
+      "frame_id": "frame_000003",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000003",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 3,
+      "frame_id": "frame_000003",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000003",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 3,
+      "frame_id": "frame_000003",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000004",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 4,
+      "frame_id": "frame_000004",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000004",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 4,
+      "frame_id": "frame_000004",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000004",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 4,
+      "frame_id": "frame_000004",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000005",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 5,
+      "frame_id": "frame_000005",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000005",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 5,
+      "frame_id": "frame_000005",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000005",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 5,
+      "frame_id": "frame_000005",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000006",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 6,
+      "frame_id": "frame_000006",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000006",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 6,
+      "frame_id": "frame_000006",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000006",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 6,
+      "frame_id": "frame_000006",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000007",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 7,
+      "frame_id": "frame_000007",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000007",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 7,
+      "frame_id": "frame_000007",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000007",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 7,
+      "frame_id": "frame_000007",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000008",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 8,
+      "frame_id": "frame_000008",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000008",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 8,
+      "frame_id": "frame_000008",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000008",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 8,
+      "frame_id": "frame_000008",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000009",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 9,
+      "frame_id": "frame_000009",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000009_2.png",
+          "pixels": 8540,
+          "bbox_xyxy": [
+            609,
+            80,
+            711,
+            247
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000009",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 9,
+      "frame_id": "frame_000009",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000009_2.png",
+          "pixels": 8540,
+          "bbox_xyxy": [
+            609,
+            80,
+            711,
+            247
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000009",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 9,
+      "frame_id": "frame_000009",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000009_2.png",
+          "pixels": 8540,
+          "bbox_xyxy": [
+            609,
+            80,
+            711,
+            247
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000010",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 10,
+      "frame_id": "frame_000010",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000010_2.png",
+          "pixels": 9161,
+          "bbox_xyxy": [
+            719,
+            75,
+            851,
+            226
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000010",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 10,
+      "frame_id": "frame_000010",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000010_2.png",
+          "pixels": 9161,
+          "bbox_xyxy": [
+            719,
+            75,
+            851,
+            226
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000010",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 10,
+      "frame_id": "frame_000010",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000010_2.png",
+          "pixels": 9161,
+          "bbox_xyxy": [
+            719,
+            75,
+            851,
+            226
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000011",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 11,
+      "frame_id": "frame_000011",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000011_2.png",
+          "pixels": 9007,
+          "bbox_xyxy": [
+            720,
+            95,
+            830,
+            229
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000011",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 11,
+      "frame_id": "frame_000011",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000011_2.png",
+          "pixels": 9007,
+          "bbox_xyxy": [
+            720,
+            95,
+            830,
+            229
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000011",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 11,
+      "frame_id": "frame_000011",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000011_2.png",
+          "pixels": 9007,
+          "bbox_xyxy": [
+            720,
+            95,
+            830,
+            229
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000012",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 12,
+      "frame_id": "frame_000012",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000012_2.png",
+          "pixels": 8280,
+          "bbox_xyxy": [
+            725,
+            105,
+            822,
+            243
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000012",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 12,
+      "frame_id": "frame_000012",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000012_2.png",
+          "pixels": 8280,
+          "bbox_xyxy": [
+            725,
+            105,
+            822,
+            243
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000012",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 12,
+      "frame_id": "frame_000012",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000012_2.png",
+          "pixels": 8280,
+          "bbox_xyxy": [
+            725,
+            105,
+            822,
+            243
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000013",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 13,
+      "frame_id": "frame_000013",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000013_2.png",
+          "pixels": 7943,
+          "bbox_xyxy": [
+            719,
+            108,
+            827,
+            248
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000013",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 13,
+      "frame_id": "frame_000013",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000013_2.png",
+          "pixels": 7943,
+          "bbox_xyxy": [
+            719,
+            108,
+            827,
+            248
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000013",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 13,
+      "frame_id": "frame_000013",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000013_2.png",
+          "pixels": 7943,
+          "bbox_xyxy": [
+            719,
+            108,
+            827,
+            248
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000014",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 14,
+      "frame_id": "frame_000014",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000014_2.png",
+          "pixels": 7726,
+          "bbox_xyxy": [
+            710,
+            111,
+            795,
+            255
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000014",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 14,
+      "frame_id": "frame_000014",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000014_2.png",
+          "pixels": 7726,
+          "bbox_xyxy": [
+            710,
+            111,
+            795,
+            255
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000014",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 14,
+      "frame_id": "frame_000014",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000014_2.png",
+          "pixels": 7726,
+          "bbox_xyxy": [
+            710,
+            111,
+            795,
+            255
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000015",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 15,
+      "frame_id": "frame_000015",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000015_2.png",
+          "pixels": 8564,
+          "bbox_xyxy": [
+            698,
+            116,
+            810,
+            257
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000015",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 15,
+      "frame_id": "frame_000015",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000015_2.png",
+          "pixels": 8564,
+          "bbox_xyxy": [
+            698,
+            116,
+            810,
+            257
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000015",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 15,
+      "frame_id": "frame_000015",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000015_2.png",
+          "pixels": 8564,
+          "bbox_xyxy": [
+            698,
+            116,
+            810,
+            257
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000016",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 16,
+      "frame_id": "frame_000016",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000016_2.png",
+          "pixels": 8133,
+          "bbox_xyxy": [
+            691,
+            119,
+            804,
+            257
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000016",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 16,
+      "frame_id": "frame_000016",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000016_2.png",
+          "pixels": 8133,
+          "bbox_xyxy": [
+            691,
+            119,
+            804,
+            257
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000016",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 16,
+      "frame_id": "frame_000016",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000016_2.png",
+          "pixels": 8133,
+          "bbox_xyxy": [
+            691,
+            119,
+            804,
+            257
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000017",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 17,
+      "frame_id": "frame_000017",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000017_2.png",
+          "pixels": 9472,
+          "bbox_xyxy": [
+            691,
+            118,
+            832,
+            253
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000017",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 17,
+      "frame_id": "frame_000017",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000017_2.png",
+          "pixels": 9472,
+          "bbox_xyxy": [
+            691,
+            118,
+            832,
+            253
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000017",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 17,
+      "frame_id": "frame_000017",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000017_2.png",
+          "pixels": 9472,
+          "bbox_xyxy": [
+            691,
+            118,
+            832,
+            253
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000018",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 18,
+      "frame_id": "frame_000018",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000018",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 18,
+      "frame_id": "frame_000018",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000018_2.png",
+          "pixels": 10350,
+          "bbox_xyxy": [
+            697,
+            114,
+            846,
+            244
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000018",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 18,
+      "frame_id": "frame_000018",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000018_2.png",
+          "pixels": 10350,
+          "bbox_xyxy": [
+            697,
+            114,
+            846,
+            244
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000019",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 19,
+      "frame_id": "frame_000019",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000019",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 19,
+      "frame_id": "frame_000019",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000019_2.png",
+          "pixels": 10908,
+          "bbox_xyxy": [
+            707,
+            108,
+            863,
+            234
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000019",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 19,
+      "frame_id": "frame_000019",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000019_2.png",
+          "pixels": 10908,
+          "bbox_xyxy": [
+            707,
+            108,
+            863,
+            234
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000020",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 20,
+      "frame_id": "frame_000020",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000020",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 20,
+      "frame_id": "frame_000020",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000020_2.png",
+          "pixels": 10692,
+          "bbox_xyxy": [
+            733,
+            101,
+            891,
+            219
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000020",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 20,
+      "frame_id": "frame_000020",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000020_2.png",
+          "pixels": 10692,
+          "bbox_xyxy": [
+            733,
+            101,
+            891,
+            219
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000021",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 21,
+      "frame_id": "frame_000021",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000021",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 21,
+      "frame_id": "frame_000021",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000021_2.png",
+          "pixels": 10332,
+          "bbox_xyxy": [
+            762,
+            95,
+            920,
+            205
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000021",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 21,
+      "frame_id": "frame_000021",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000021_2.png",
+          "pixels": 10332,
+          "bbox_xyxy": [
+            762,
+            95,
+            920,
+            205
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000022",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 22,
+      "frame_id": "frame_000022",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000022",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 22,
+      "frame_id": "frame_000022",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000022_2.png",
+          "pixels": 10757,
+          "bbox_xyxy": [
+            783,
+            89,
+            939,
+            197
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000022",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 22,
+      "frame_id": "frame_000022",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000022_2.png",
+          "pixels": 10757,
+          "bbox_xyxy": [
+            783,
+            89,
+            939,
+            197
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000023",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 23,
+      "frame_id": "frame_000023",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000023",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 23,
+      "frame_id": "frame_000023",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000023_2.png",
+          "pixels": 10390,
+          "bbox_xyxy": [
+            808,
+            84,
+            964,
+            184
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000023",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 23,
+      "frame_id": "frame_000023",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000023_2.png",
+          "pixels": 10390,
+          "bbox_xyxy": [
+            808,
+            84,
+            964,
+            184
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000024",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 24,
+      "frame_id": "frame_000024",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000024",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 24,
+      "frame_id": "frame_000024",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000024_2.png",
+          "pixels": 10474,
+          "bbox_xyxy": [
+            827,
+            81,
+            984,
+            179
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000024",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 24,
+      "frame_id": "frame_000024",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000024_2.png",
+          "pixels": 10474,
+          "bbox_xyxy": [
+            827,
+            81,
+            984,
+            179
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000025",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 25,
+      "frame_id": "frame_000025",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000025",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 25,
+      "frame_id": "frame_000025",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000025_2.png",
+          "pixels": 10178,
+          "bbox_xyxy": [
+            840,
+            78,
+            997,
+            175
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000025",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 25,
+      "frame_id": "frame_000025",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000025_2.png",
+          "pixels": 10178,
+          "bbox_xyxy": [
+            840,
+            78,
+            997,
+            175
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000026",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 26,
+      "frame_id": "frame_000026",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "supported_event_ids": [],
+      "issues": [],
+      "gt": [],
+      "causal_support": [],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000026",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 26,
+      "frame_id": "frame_000026",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000026_2.png",
+          "pixels": 10601,
+          "bbox_xyxy": [
+            846,
+            76,
+            1004,
+            175
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000026",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 26,
+      "frame_id": "frame_000026",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000026_2.png",
+          "pixels": 10601,
+          "bbox_xyxy": [
+            846,
+            76,
+            1004,
+            175
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000027",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 27,
+      "frame_id": "frame_000027",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000027_3.png",
+          "pixels": 2093,
+          "bbox_xyxy": [
+            858,
+            172,
+            954,
+            214
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000027",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 27,
+      "frame_id": "frame_000027",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2",
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2",
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01",
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000027_2.png",
+          "pixels": 10678,
+          "bbox_xyxy": [
+            849,
+            74,
+            1006,
+            173
+          ]
+        },
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000027_3.png",
+          "pixels": 2093,
+          "bbox_xyxy": [
+            858,
+            172,
+            954,
+            214
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        },
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000027",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 27,
+      "frame_id": "frame_000027",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000027_3.png",
+          "pixels": 2093,
+          "bbox_xyxy": [
+            858,
+            172,
+            954,
+            214
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000028",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 28,
+      "frame_id": "frame_000028",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000028_3.png",
+          "pixels": 2611,
+          "bbox_xyxy": [
+            788,
+            165,
+            961,
+            671
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000028",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 28,
+      "frame_id": "frame_000028",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "2",
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2",
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01",
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000028_2.png",
+          "pixels": 10428,
+          "bbox_xyxy": [
+            851,
+            72,
+            1009,
+            170
+          ]
+        },
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000028_3.png",
+          "pixels": 2611,
+          "bbox_xyxy": [
+            788,
+            165,
+            961,
+            671
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        },
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000028",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 28,
+      "frame_id": "frame_000028",
+      "is_p8_endpoint": false,
+      "score": true,
+      "eligible_ids": [
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000028_3.png",
+          "pixels": 2611,
+          "bbox_xyxy": [
+            788,
+            165,
+            961,
+            671
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q01_f000029",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q01",
+      "mode": "NOW",
+      "published_index": 29,
+      "frame_id": "frame_000029",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000029_3.png",
+          "pixels": 2238,
+          "bbox_xyxy": [
+            856,
+            166,
+            948,
+            206
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q02_f000029",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q02",
+      "mode": "EVER",
+      "published_index": 29,
+      "frame_id": "frame_000029",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "2",
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2",
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e01",
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000029_2.png",
+          "pixels": 10828,
+          "bbox_xyxy": [
+            851,
+            70,
+            1012,
+            171
+          ]
+        },
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000029_3.png",
+          "pixels": 2238,
+          "bbox_xyxy": [
+            856,
+            166,
+            948,
+            206
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e01",
+          "occurrence_confirmed_at": 9,
+          "support": [
+            {
+              "published_index": 9,
+              "frame_id": "frame_000009",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            },
+            {
+              "published_index": 18,
+              "frame_id": "frame_000018",
+              "evidence": "动作结束后的第一帧；不得提前用作结束证据。",
+              "observation_type": "post_event_context"
+            }
+          ],
+          "end_confirmed_at": 18
+        },
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q03_f000029",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q03",
+      "mode": "LATEST",
+      "published_index": 29,
+      "frame_id": "frame_000029",
+      "is_p8_endpoint": true,
+      "score": true,
+      "eligible_ids": [
+        "3"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "3"
+      ],
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "supported_event_ids": [
+        "gm4145155100d5_e02"
+      ],
+      "issues": [],
+      "gt": [
+        {
+          "instance_id": "3",
+          "mask": "masks/gm4145155100d5/000029_3.png",
+          "pixels": 2238,
+          "bbox_xyxy": [
+            856,
+            166,
+            948,
+            206
+          ]
+        }
+      ],
+      "causal_support": [
+        {
+          "event_id": "gm4145155100d5_e02",
+          "occurrence_confirmed_at": 27,
+          "support": [
+            {
+              "published_index": 27,
+              "frame_id": "frame_000027",
+              "evidence": "区间开始边界；须仅凭截至此帧的画面确认。",
+              "observation_type": "positive_event"
+            }
+          ],
+          "end_confirmed_at": null
+        }
+      ],
+      "standard_semantics_score": true,
+      "semantic_exception": null
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000000",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 0,
+      "frame_id": "frame_000000",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000001",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 1,
+      "frame_id": "frame_000001",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000002",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 2,
+      "frame_id": "frame_000002",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000003",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 3,
+      "frame_id": "frame_000003",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000004",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 4,
+      "frame_id": "frame_000004",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000005",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 5,
+      "frame_id": "frame_000005",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000006",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 6,
+      "frame_id": "frame_000006",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000007",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 7,
+      "frame_id": "frame_000007",
+      "is_p8_endpoint": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000008",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 8,
+      "frame_id": "frame_000008",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000009",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 9,
+      "frame_id": "frame_000009",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000010",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 10,
+      "frame_id": "frame_000010",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000011",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 11,
+      "frame_id": "frame_000011",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000012",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 12,
+      "frame_id": "frame_000012",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000013",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 13,
+      "frame_id": "frame_000013",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000014",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 14,
+      "frame_id": "frame_000014",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000015",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 15,
+      "frame_id": "frame_000015",
+      "is_p8_endpoint": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000016",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 16,
+      "frame_id": "frame_000016",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000017",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 17,
+      "frame_id": "frame_000017",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000018",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 18,
+      "frame_id": "frame_000018",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000019",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 19,
+      "frame_id": "frame_000019",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000020",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 20,
+      "frame_id": "frame_000020",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000021",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 21,
+      "frame_id": "frame_000021",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000022",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 22,
+      "frame_id": "frame_000022",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000023",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 23,
+      "frame_id": "frame_000023",
+      "is_p8_endpoint": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000024",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 24,
+      "frame_id": "frame_000024",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000025",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 25,
+      "frame_id": "frame_000025",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000026",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 26,
+      "frame_id": "frame_000026",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000027",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 27,
+      "frame_id": "frame_000027",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000028",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 28,
+      "frame_id": "frame_000028",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q04_f000029",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q04",
+      "mode": "BEFORE_AFTER",
+      "published_index": 29,
+      "frame_id": "frame_000029",
+      "is_p8_endpoint": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000029_2.png",
+          "pixels": 10828,
+          "bbox_xyxy": [
+            851,
+            70,
+            1012,
+            171
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000000",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 0,
+      "frame_id": "frame_000000",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000001",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 1,
+      "frame_id": "frame_000001",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000002",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 2,
+      "frame_id": "frame_000002",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000003",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 3,
+      "frame_id": "frame_000003",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000004",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 4,
+      "frame_id": "frame_000004",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000005",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 5,
+      "frame_id": "frame_000005",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000006",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 6,
+      "frame_id": "frame_000006",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000007",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 7,
+      "frame_id": "frame_000007",
+      "is_p8_endpoint": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000008",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 8,
+      "frame_id": "frame_000008",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000009",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 9,
+      "frame_id": "frame_000009",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000010",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 10,
+      "frame_id": "frame_000010",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000011",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 11,
+      "frame_id": "frame_000011",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000012",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 12,
+      "frame_id": "frame_000012",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000013",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 13,
+      "frame_id": "frame_000013",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000014",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 14,
+      "frame_id": "frame_000014",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000015",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 15,
+      "frame_id": "frame_000015",
+      "is_p8_endpoint": true,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000016",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 16,
+      "frame_id": "frame_000016",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000017",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 17,
+      "frame_id": "frame_000017",
+      "is_p8_endpoint": false,
+      "eligible_ids": [],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [],
+      "answerability": "determinate",
+      "answer_state": "known_empty",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000018",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 18,
+      "frame_id": "frame_000018",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000018_2.png",
+          "pixels": 10350,
+          "bbox_xyxy": [
+            697,
+            114,
+            846,
+            244
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000019",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 19,
+      "frame_id": "frame_000019",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000019_2.png",
+          "pixels": 10908,
+          "bbox_xyxy": [
+            707,
+            108,
+            863,
+            234
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000020",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 20,
+      "frame_id": "frame_000020",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000020_2.png",
+          "pixels": 10692,
+          "bbox_xyxy": [
+            733,
+            101,
+            891,
+            219
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000021",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 21,
+      "frame_id": "frame_000021",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000021_2.png",
+          "pixels": 10332,
+          "bbox_xyxy": [
+            762,
+            95,
+            920,
+            205
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000022",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 22,
+      "frame_id": "frame_000022",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000022_2.png",
+          "pixels": 10757,
+          "bbox_xyxy": [
+            783,
+            89,
+            939,
+            197
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000023",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 23,
+      "frame_id": "frame_000023",
+      "is_p8_endpoint": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000023_2.png",
+          "pixels": 10390,
+          "bbox_xyxy": [
+            808,
+            84,
+            964,
+            184
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000024",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 24,
+      "frame_id": "frame_000024",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000024_2.png",
+          "pixels": 10474,
+          "bbox_xyxy": [
+            827,
+            81,
+            984,
+            179
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000025",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 25,
+      "frame_id": "frame_000025",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000025_2.png",
+          "pixels": 10178,
+          "bbox_xyxy": [
+            840,
+            78,
+            997,
+            175
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000026",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 26,
+      "frame_id": "frame_000026",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000026_2.png",
+          "pixels": 10601,
+          "bbox_xyxy": [
+            846,
+            76,
+            1004,
+            175
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000027",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 27,
+      "frame_id": "frame_000027",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000027_2.png",
+          "pixels": 10678,
+          "bbox_xyxy": [
+            849,
+            74,
+            1006,
+            173
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000028",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 28,
+      "frame_id": "frame_000028",
+      "is_p8_endpoint": false,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000028_2.png",
+          "pixels": 10428,
+          "bbox_xyxy": [
+            851,
+            72,
+            1009,
+            170
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    },
+    {
+      "label_id": "gm4145155100d5_q05_f000029",
+      "video_id": "gm4145155100d5",
+      "query_id": "gm4145155100d5_q05",
+      "mode": "FIRST",
+      "published_index": 29,
+      "frame_id": "frame_000029",
+      "is_p8_endpoint": true,
+      "eligible_ids": [
+        "2"
+      ],
+      "visible_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "visible_ids_complete": true,
+      "output_ids": [
+        "2"
+      ],
+      "answerability": "determinate",
+      "answer_state": "visible_targets",
+      "missing_gt_ids": [],
+      "visibility_evidence": [],
+      "issues": [],
+      "score": true,
+      "gt": [
+        {
+          "instance_id": "2",
+          "mask": "masks/gm4145155100d5/000029_2.png",
+          "pixels": 10828,
+          "bbox_xyxy": [
+            851,
+            70,
+            1012,
+            171
+          ]
+        }
+      ],
+      "semantic_exception": null,
+      "standard_semantics_score": true
+    }
+  ]
+}

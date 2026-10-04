@@ -1,0 +1,17 @@
+{
+  "writer": {
+    "pixels": 401408,
+    "seed": 20260918,
+    "model": "${SEKAI_BASE_MODEL}"
+  },
+  "locator": {
+    "pixels": 401408,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "model": "${SEKAI_BASE_MODEL}"
+  },
+  "checkpoint": "${SEKAI_LOCATOR_CHECKPOINT}",
+  "sam_source": "${SEKAI_SAM_SOURCE}",
+  "sam_checkpoint": "${SEKAI_SAM_CHECKPOINT}"
+}
