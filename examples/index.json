@@ -1,0 +1,97 @@
+[
+  {
+    "video_id": "gma24ac5776a70",
+    "source": "groundmore/_7h7J01tyvY_0054_0100",
+    "frames": 36,
+    "queries": 5,
+    "scoring_points": 180,
+    "modes": [
+      "EVER",
+      "FIRST",
+      "LATEST",
+      "NOW",
+      "PAST_NOT_PRESENT"
+    ]
+  },
+  {
+    "video_id": "gmb450302b1ce5",
+    "source": "groundmore/X0_tNjncG24_1954_2006",
+    "frames": 72,
+    "queries": 5,
+    "scoring_points": 355,
+    "modes": [
+      "CONTINUOUS",
+      "EVER",
+      "NEVER",
+      "NOW",
+      "TWO_HOP"
+    ]
+  },
+  {
+    "video_id": "gmc10189bbff76",
+    "source": "groundmore/vfDlEiph3d8_0500_0515",
+    "frames": 90,
+    "queries": 6,
+    "scoring_points": 523,
+    "modes": [
+      "EVER",
+      "FIRST",
+      "LATEST",
+      "NEVER",
+      "NOW",
+      "PAST_NOT_PRESENT"
+    ]
+  },
+  {
+    "video_id": "gm3aa74619f9a7",
+    "source": "groundmore/KahSso_vgW8_0758_0813",
+    "frames": 90,
+    "queries": 3,
+    "scoring_points": 270,
+    "modes": [
+      "EVER",
+      "NOW",
+      "OBJECT_HISTORY"
+    ]
+  },
+  {
+    "video_id": "gm876d609773a8",
+    "source": "groundmore/NomMansxnQM_0315_0330",
+    "frames": 90,
+    "queries": 5,
+    "scoring_points": 450,
+    "modes": [
+      "EVER",
+      "FIRST",
+      "LATEST",
+      "NOW",
+      "PAST_NOT_PRESENT"
+    ]
+  },
+  {
+    "video_id": "gmf6f14b2700ea",
+    "source": "groundmore/gReGmQwSEu0_2505_2520",
+    "frames": 90,
+    "queries": 3,
+    "scoring_points": 270,
+    "modes": [
+      "COUNT",
+      "EVER",
+      "NOW"
+    ]
+  },
+  {
+    "video_id": "gm4145155100d5",
+    "source": "groundmore/lfoTLeFooR4_0451_0456",
+    "frames": 30,
+    "queries": 5,
+    "scoring_points": 150,
+    "modes": [
+      "BEFORE_AFTER",
+      "EVER",
+      "FIRST",
+      "LATEST",
+      "NOW"
+    ]
+  }
+]

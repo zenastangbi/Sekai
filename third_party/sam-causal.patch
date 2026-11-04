@@ -1,0 +1,767 @@
+--- a/sam3/model/sam3_base_predictor.py
++++ b/sam3/model/sam3_base_predictor.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ # Copyright (c) Meta Platforms, Inc. and affiliates. All Rights Reserved
+ 
+ # pyre-unsafe
+@@ -101,9 +103,14 @@
+         """Dispatch a stream request based on its type."""
+         request_type = request["type"]
+         if request_type == "propagate_in_video":
++            default_direction = (
++                "forward" if getattr(self.model, "strict_causal", False) else "both"
++            )
+             yield from self.propagate_in_video(
+                 session_id=request["session_id"],
+-                propagation_direction=request.get("propagation_direction", "both"),
++                propagation_direction=request.get(
++                    "propagation_direction", default_direction
++                ),
+                 start_frame_idx=request.get("start_frame_index", None),
+                 max_frame_num_to_track=request.get("max_frame_num_to_track", None),
+                 output_prob_thresh=request.get(
+@@ -144,7 +151,10 @@
+             "last_use_time": time.time(),
+         }
+         logger.info(f"started new session {session_id}")
+-        return {"session_id": session_id}
++        response = {"session_id": session_id}
++        if isinstance(inference_state, dict) and "num_frames" in inference_state:
++            response["num_frames"] = int(inference_state["num_frames"])
++        return response
+ 
+     def add_prompt(
+         self,
+@@ -270,6 +280,13 @@
+             if propagation_direction not in ["both", "forward", "backward"]:
+                 raise ValueError(
+                     f"invalid propagation direction: {propagation_direction}"
++                )
++            if (
++                getattr(self.model, "strict_causal", False)
++                and propagation_direction != "forward"
++            ):
++                raise ValueError(
++                    "strict_causal requires propagation_direction='forward'"
+                 )
+ 
+             propagate_kwargs = dict(
+--- a/sam3/model/sam3_image.py
++++ b/sam3/model/sam3_image.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ # Copyright (c) Meta Platforms, Inc. and affiliates. All Rights Reserved
+ 
+ # pyre-unsafe
+@@ -874,12 +876,25 @@
+             vision_pos_enc = feats["vision_pos_enc"]
+ 
+         # trim the detector output to only include the necessary keys
++        presence_logit_dec = out_local.get("presence_logit_dec")
++        num_queries = out_local["pred_logits"].shape[1]
++        detector_query_indices = torch.arange(
++            num_queries, device=out_local["pred_logits"].device, dtype=torch.long
++        ).unsqueeze(0).expand(out_local["pred_logits"].shape[0], -1).contiguous()
+         out_local = {
+             "pred_logits": out_local["pred_logits"],
+             "pred_boxes": out_local["pred_boxes"],
+             "pred_boxes_xyxy": out_local["pred_boxes_xyxy"],
+             "pred_masks": out_local["pred_masks"],
++
++
++
++
++            "queries": out_local["queries"],
++            "detector_query_indices": detector_query_indices,
+         }
++        if presence_logit_dec is not None:
++            out_local["presence_logit_dec"] = presence_logit_dec
+ 
+         # gather the results: after this step, each GPU will receive detector outputs on
+         # all frames in the chunk and store them in `multigpu_buffer`
+--- a/sam3/model/sam3_multiplex_base.py
++++ b/sam3/model/sam3_multiplex_base.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ import datetime
+ import logging
+ import math
+@@ -256,6 +258,8 @@
+         running_in_prod=False,  # Flag to specify if we are running in FBInfra for Insta Edit/Segments
+         use_batched_grounding=False,
+         batched_grounding_batch_size=1,
++        strict_causal=False,
++        slot_observer=None,
+         **kwargs,
+     ):
+         nn.Module.__init__(self)
+@@ -351,12 +355,41 @@
+         self.reconstruction_bbox_iou_thresh = reconstruction_bbox_iou_thresh
+         self.reconstruction_bbox_det_score = reconstruction_bbox_det_score
+         self.reapply_no_object_pointer = reapply_no_object_pointer
++        self.strict_causal = strict_causal
++        self.slot_observer = slot_observer
++
++
++
++        self.tracker.model.strict_causal = strict_causal
+ 
+         # Batched grounding configuration
+         self.use_batched_grounding = use_batched_grounding
+         self.batched_grounding_batch_size = (
+             batched_grounding_batch_size  # Batch size for batched grounding
+         )
++        if self.strict_causal:
++            causal_requirements = {
++                "hotstart_delay": self.hotstart_delay,
++                "masklet_confirmation_enable": self.masklet_confirmation_enable,
++                "use_batched_grounding": self.use_batched_grounding,
++                "batched_grounding_batch_size": self.batched_grounding_batch_size,
++            }
++            expected = {
++                "hotstart_delay": 0,
++                "masklet_confirmation_enable": False,
++                "use_batched_grounding": False,
++                "batched_grounding_batch_size": 1,
++            }
++            mismatched = {
++                key: (causal_requirements[key], value)
++                for key, value in expected.items()
++                if causal_requirements[key] != value
++            }
++            if mismatched:
++                raise ValueError(
++                    "strict_causal received incompatible settings "
++                    f"(actual, expected): {mismatched}"
++                )
+ 
+         if self.is_multiplex:
+             assert not self.tracker.multiplex_controller.training, (
+@@ -370,6 +403,16 @@
+         if self._dist_pg_cpu is None:
+             self._init_dist_pg_cpu()
+         dist.broadcast(tensor_list, tensor, group=self._dist_pg_cpu)
++
++    def _notify_slot_observer(self, **frame_payload):
++        """Pass frame_payload to the configured observer callback.
++        """
++        if self.slot_observer is None:
++            return
++        callback = getattr(self.slot_observer, "observe_sam31_frame", None)
++        if callback is None:
++            callback = self.slot_observer
++        callback(**frame_payload)
+ 
+     def all_gather_python_obj_cpu(self, object_list, python_obj):
+         if self._dist_pg_cpu is None:
+@@ -633,6 +676,38 @@
+                 dict(zip(sam2_obj_ids, tracker_obj_scores_global))
+             )
+ 
++        if self.rank == 0 and self.slot_observer is not None:
++            observer_features = feature_cache.get(
++                "reasoning_vos_observer_features", {}
++            ).pop(frame_idx, {})
++            self._notify_slot_observer(
++                frame_idx=frame_idx,
++                reverse=reverse,
++                strict_causal=self.strict_causal,
++                detector_outputs=det_out,
++                detector_keep=pos_pred_mask,
++                tracker_masks=obj_id_to_mask,
++                tracker_scores=tracker_metadata_new[
++                    "obj_id_to_sam2_score_frame_wise"
++                ][frame_idx],
++                tracker_metadata=tracker_metadata_new,
++                tracker_states=tracker_states_local_new,
++                association_plan=sam2_update_plan,
++                frame_stats=frame_stats,
++                detector_presence_logit=observer_features.get(
++                    "presence_logit_dec"
++                ),
++                mask_pool_feature_map=observer_features.get(
++                    "mask_pool_feature_map"
++                ),
++                global_visual_feature_map=observer_features.get(
++                    "global_visual_feature_map"
++                ),
++                global_visual_provenance=observer_features.get(
++                    "global_visual_provenance"
++                ),
++            )
++
+         return (
+             obj_id_to_mask,  # a dict: obj_id --> output mask
+             obj_id_to_score,  # a dict: obj_id --> output score (prob)
+@@ -677,7 +752,29 @@
+             **text_outputs,
+         }
+ 
+-        if use_batched_grounding:
++        if self.strict_causal:
++            if reverse:
++                raise ValueError("strict_causal does not allow reverse propagation")
++            with torch.profiler.record_function(
++                "forward_video_grounding_strict_causal"
++            ):
++                sam3_image_out, _ = (
++
++                    self.detector.forward_video_grounding_strict_causal(
++                        backbone_out=backbone_out,
++                        find_input=input_batch.find_inputs[
++                            frame_idx % len(input_batch.find_inputs)
++                        ],
++                        geometric_prompt=geometric_prompt,
++                        return_sam2_backbone_feats=True,
++                        run_nms=self.det_nms_thresh > 0.0,
++                        nms_prob_thresh=self.score_threshold_detection,
++                        nms_iou_thresh=self.det_nms_thresh,
++                        nms_use_iom=self.det_nms_use_iom,
++                        feature_cache=feature_cache,
++                    )
++                )
++        elif use_batched_grounding:
+             # Use fully batched forward_grounding approach
+             if "grounding_cache" not in feature_cache:
+                 feature_cache["grounding_cache"] = {}
+@@ -741,6 +838,21 @@
+         pred_probs = sam3_image_out["pred_logits"].squeeze(-1).sigmoid()
+         pred_boxes_xyxy = sam3_image_out["pred_boxes_xyxy"]
+         pred_masks = sam3_image_out["pred_masks"]
++        detector_queries = sam3_image_out["queries"]
++        detector_query_indices = sam3_image_out["detector_query_indices"]
++        assert detector_queries.shape[:2] == pred_probs.shape
++        assert detector_query_indices.shape == pred_probs.shape
++        assert pred_boxes_xyxy.shape[:2] == pred_probs.shape
++        assert pred_masks.shape[:2] == pred_probs.shape
++
++
++
++        if self.rank == 0 and self.slot_observer is not None:
++            feature_cache.setdefault("reasoning_vos_observer_features", {})[
++                frame_idx
++            ] = {
++                "presence_logit_dec": sam3_image_out.get("presence_logit_dec")
++            }
+         # get the positive detection outputs above threshold
+         pos_pred_mask = pred_probs > self.score_threshold_detection
+ 
+@@ -753,6 +865,8 @@
+             "bbox": pred_boxes_xyxy,
+             "mask": pred_masks,
+             "scores": pred_probs,
++            "detector_hidden": detector_queries,
++            "detector_query_idx": detector_query_indices,
+         }
+ 
+         # Step 3: build SAM2 backbone features and store them in `feature_cache`
+@@ -791,6 +905,25 @@
+             sam_mask_decoder.conv_s1(sam3_image_out["sam2_backbone_fpn_1"]),
+             sam3_image_out["sam2_backbone_fpn_2"],  # fpn_2 doesn't need additional conv
+         ]
++        if self.rank == 0 and self.slot_observer is not None:
++
++
++
++
++
++            observer_features = feature_cache.setdefault(
++                "reasoning_vos_observer_features", {}
++            ).setdefault(frame_idx, {})
++            observer_features["mask_pool_feature_map"] = sam2_backbone_fpn[-1]
++            observer_features["global_visual_feature_map"] = sam2_backbone_fpn[-1]
++            observer_features["global_visual_provenance"] = {
++                "source": "sam3_visual_trunk.propagation_fpn_2",
++                "conditioning": "pre_text_fusion_unconditioned",
++                "feature_level": 2,
++                "backbone_forward_reused": True,
++                "causal_frame_idx": frame_idx,
++                "strict_causal": self.strict_causal,
++            }
+         sam2_backbone_out = {
+             "vision_features": sam2_backbone_fpn[-1],  # top-level feature
+             "vision_mask": None,
+--- a/sam3/model/sam3_multiplex_detector.py
++++ b/sam3/model/sam3_multiplex_detector.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ import os
+ 
+ import torch
+@@ -86,13 +88,22 @@
+             geometric_prompt=geometric_prompt,
+         )
+         # trim the output to only include the necessary keys
++        presence_logit_dec = out.get("presence_logit_dec")
++        num_queries = out["pred_logits"].shape[1]
++        detector_query_indices = torch.arange(
++            num_queries, device=out["pred_logits"].device, dtype=torch.long
++        ).unsqueeze(0).expand(out["pred_logits"].shape[0], -1).contiguous()
+         out = {
+             "pred_logits": out["pred_logits"],
+             "pred_boxes": out["pred_boxes"],
+             "pred_boxes_xyxy": out["pred_boxes_xyxy"],
+             "pred_masks": out["pred_masks"],
++            "queries": out["queries"],
++            "detector_query_indices": detector_query_indices,
+             "pred_object_ids": self._get_dummy_object_ids(out["pred_logits"]),
+         }
++        if presence_logit_dec is not None:
++            out["presence_logit_dec"] = presence_logit_dec
+         return out, backbone_out
+ 
+     def _get_dummy_object_ids(self, pred_logits):
+@@ -352,6 +363,83 @@
+             )
+         self.gather_backbone_out = gather_backbone_out
+         self.is_multiplex = is_multiplex
++
++    def forward_video_grounding_strict_causal(
++        self,
++        backbone_out,
++        find_input,
++        geometric_prompt: Prompt,
++        *,
++        return_sam2_backbone_feats=False,
++        run_nms=False,
++        nms_prob_thresh=None,
++        nms_iou_thresh=None,
++        nms_use_iom=False,
++        feature_cache=None,
++    ):
++        """Return detector outputs and backbone features for the current frame.
++
++        find_input selects the frame; geometric_prompt supplies its prompt.
++        run_nms applies mask suppression with the specified thresholds.
++        """
++        out_full = self.forward_grounding(
++            backbone_out=backbone_out,
++            find_input=find_input,
++            find_target=None,
++            geometric_prompt=geometric_prompt,
++            feature_cache=feature_cache,
++        )
++        if run_nms:
++            assert nms_prob_thresh is not None and nms_iou_thresh is not None
++            pred_probs = out_full["pred_logits"].squeeze(-1).sigmoid()
++            keep = nms_masks(
++                pred_probs=pred_probs,
++                pred_masks=out_full["pred_masks"],
++                prob_threshold=nms_prob_thresh,
++                iou_threshold=nms_iou_thresh,
++                nms_use_iom=nms_use_iom,
++                do_compile=getattr(self, "compile_model", False),
++                running_in_prod=getattr(self, "running_in_prod", False),
++            )
++            out_full["pred_logits"][:, :, 0] -= 1e4 * (~keep).float()
++
++        num_queries = out_full["pred_logits"].shape[1]
++        query_indices = torch.arange(
++            num_queries, device=out_full["pred_logits"].device, dtype=torch.long
++        ).unsqueeze(0).expand(out_full["pred_logits"].shape[0], -1).contiguous()
++        out = {
++            "pred_logits": out_full["pred_logits"],
++            "pred_boxes": out_full["pred_boxes"],
++            "pred_boxes_xyxy": out_full["pred_boxes_xyxy"],
++            "pred_masks": out_full["pred_masks"],
++            "queries": out_full["queries"],
++            "detector_query_indices": query_indices,
++            "pred_object_ids": self._get_dummy_object_ids(out_full["pred_logits"]),
++        }
++        if "presence_logit_dec" in out_full:
++            out["presence_logit_dec"] = out_full["presence_logit_dec"]
++
++        if return_sam2_backbone_feats:
++            features = out_full["prev_encoder_out"]["backbone_out"]
++            sam2_features = features["sam2_backbone_out"]
++            out["sam2_backbone_fpn_0"] = sam2_features["backbone_fpn"][0].tensors
++            out["sam2_backbone_fpn_1"] = sam2_features["backbone_fpn"][1].tensors
++            out["sam2_backbone_fpn_2"] = sam2_features["backbone_fpn"][2].tensors
++            out["sam2_backbone_pos_enc"] = sam2_features["vision_pos_enc"]
++            if self.is_multiplex:
++                interactive = features["interactive"]
++                out["interactive_backbone_fpn_0"] = interactive["backbone_fpn"][
++                    0
++                ].tensors
++                out["interactive_backbone_fpn_1"] = interactive["backbone_fpn"][
++                    1
++                ].tensors
++                out["interactive_backbone_fpn_2"] = interactive["backbone_fpn"][
++                    2
++                ].tensors
++                out["interactive_backbone_pos_enc"] = interactive["vision_pos_enc"]
++
++        return out, backbone_out
+ 
+     def forward_video_grounding_multigpu(
+         self,
+@@ -591,13 +679,22 @@
+             vision_pos_enc = feats["vision_pos_enc"]
+ 
+         # trim the FA output to only include the necessary keys
++        presence_logit_dec = out_local.get("presence_logit_dec")
++        num_queries = out_local["pred_logits"].shape[1]
++        detector_query_indices = torch.arange(
++            num_queries, device=out_local["pred_logits"].device, dtype=torch.long
++        ).unsqueeze(0).expand(out_local["pred_logits"].shape[0], -1).contiguous()
+         out_local = {
+             "pred_logits": out_local["pred_logits"],
+             "pred_boxes": out_local["pred_boxes"],
+             "pred_boxes_xyxy": out_local["pred_boxes_xyxy"],
+             "pred_masks": out_local["pred_masks"],
++            "queries": out_local["queries"],
++            "detector_query_indices": detector_query_indices,
+             "pred_object_ids": self._get_dummy_object_ids(out_local["pred_logits"]),
+         }
++        if presence_logit_dec is not None:
++            out_local["presence_logit_dec"] = presence_logit_dec
+ 
+         # gather the results: after this step, each GPU will receive FA outputs on
+         # all frames in the chunk and store them in `multigpu_buffer`
+@@ -824,6 +921,11 @@
+                 geometric_prompt=batched_geometric_prompt,
+                 feature_cache=feature_cache,
+             )
++        out["detector_query_indices"] = torch.arange(
++            out["pred_logits"].shape[1],
++            device=out["pred_logits"].device,
++            dtype=torch.long,
++        ).unsqueeze(0).expand(out["pred_logits"].shape[0], -1).contiguous()
+ 
+         # Apply NMS per frame in the batch
+         if run_nms:
+@@ -880,6 +982,7 @@
+             "pred_boxes_xyxy_o2m",
+             "pred_masks_o2m",
+             "queries",
++            "detector_query_indices",
+             "presence_logit_dec",
+         }
+ 
+--- a/sam3/model/sam3_multiplex_tracking.py
++++ b/sam3/model/sam3_multiplex_tracking.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ from collections import defaultdict
+ from functools import reduce
+ from typing import Dict
+@@ -98,6 +100,11 @@
+         self.compile_model = compile_model
+         self.detector.compile_model = self.compile_model
+         self.postprocess_batch_size = postprocess_batch_size
++        if self.strict_causal and self.postprocess_batch_size != 1:
++            raise ValueError(
++                "strict_causal requires postprocess_batch_size=1, got "
++                f"{self.postprocess_batch_size}"
++            )
+ 
+     TEXT_ID_FOR_TEXT = 0
+     TEXT_ID_FOR_VISUAL = 1
+@@ -208,12 +215,21 @@
+         self,
+         resource_path,
+         offload_video_to_cpu=False,
++        offload_state_to_cpu=False,
+         async_loading_frames=False,
+         use_torchcodec=False,
+         use_cv2=False,
+         input_is_mp4=False,
+     ):
+         # Initialize inference state (inlined from Sam3DemoMixin.init_state)
++
++
++
++
++        if offload_state_to_cpu:
++            raise NotImplementedError(
++                "multiplex init_state does not support offload_state_to_cpu=True"
++            )
+         if use_torchcodec:
+             video_loader_type = "torchcodec"
+         elif use_cv2:
+@@ -233,6 +249,7 @@
+         inference_state["image_size"] = self.image_size
+         inference_state["num_frames"] = len(images)
+         inference_state["device"] = torch.device("cuda")
++        inference_state["offload_state_to_cpu"] = False
+         inference_state["orig_height"] = orig_height
+         inference_state["orig_width"] = orig_width
+         inference_state["constants"] = {}
+@@ -314,6 +331,8 @@
+         is a generator and yields inference outputs for all frames in the range specified
+         by `start_frame_idx`, `max_frame_num_to_track`, and `reverse`.
+         """
++        if self.strict_causal and reverse:
++            raise ValueError("strict_causal does not allow reverse propagation")
+         # compile the model (it's a no-op if the model is already compiled)
+         # note that it's intentionally added to `self.propagate_in_video`, so that the first
+         # `self.add_prompt` call will be done in eager mode to fill in the decoder buffers
+@@ -1241,10 +1260,7 @@
+     def _build_sam2_output(
+         self, inference_state, frame_idx, refined_obj_id_to_mask=None
+     ):
+-        if not frame_idx in inference_state["cached_frame_outputs"]:
+-            return {}
+-
+-        cached_outputs = inference_state["cached_frame_outputs"][frame_idx]
++        cached_outputs = inference_state["cached_frame_outputs"].get(frame_idx, {})
+         obj_id_to_mask = cached_outputs.copy()
+ 
+         # Update with refined masks if provided
+@@ -1837,6 +1853,7 @@
+         self,
+         resource_path,
+         offload_video_to_cpu=False,
++        offload_state_to_cpu=False,
+         async_loading_frames=False,
+         use_torchcodec=False,
+         use_cv2=False,
+@@ -1845,6 +1862,7 @@
+         inference_state = super().init_state(
+             resource_path=resource_path,
+             offload_video_to_cpu=offload_video_to_cpu,
++            offload_state_to_cpu=offload_state_to_cpu,
+             async_loading_frames=async_loading_frames,
+             use_torchcodec=use_torchcodec,
+             use_cv2=use_cv2,
+@@ -2219,6 +2237,7 @@
+         self,
+         resource_path,
+         offload_video_to_cpu=False,
++        offload_state_to_cpu=False,
+         async_loading_frames=False,
+         use_torchcodec=False,
+         use_cv2=False,
+@@ -2227,6 +2246,7 @@
+         inference_state = super().init_state(
+             resource_path=resource_path,
+             offload_video_to_cpu=offload_video_to_cpu,
++            offload_state_to_cpu=offload_state_to_cpu,
+             async_loading_frames=async_loading_frames,
+             use_torchcodec=use_torchcodec,
+             use_cv2=use_cv2,
+--- a/sam3/model/sam3_video_base.py
++++ b/sam3/model/sam3_video_base.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ # Copyright (c) Meta Platforms, Inc. and affiliates. All Rights Reserved
+ 
+ # pyre-unsafe
+@@ -605,12 +607,22 @@
+             pred_probs = pred_probs - 1e8  # make sure no detections are kept
+         pred_boxes_xyxy = sam3_image_out["pred_boxes_xyxy"]
+         pred_masks = sam3_image_out["pred_masks"]
++        detector_queries = sam3_image_out["queries"]
++        detector_query_indices = sam3_image_out["detector_query_indices"]
++        assert detector_queries.shape[:2] == pred_probs.shape
++        assert detector_query_indices.shape == pred_probs.shape
++        assert pred_boxes_xyxy.shape[:2] == pred_probs.shape
++        assert pred_masks.shape[:2] == pred_probs.shape
+         # get the positive detection outputs above threshold
+         pos_pred_idx = torch.where(pred_probs > self.score_threshold_detection)
+         det_out = {
+             "bbox": pred_boxes_xyxy[pos_pred_idx[0], pos_pred_idx[1]],
+             "mask": pred_masks[pos_pred_idx[0], pos_pred_idx[1]],
+             "scores": pred_probs[pos_pred_idx[0], pos_pred_idx[1]],
++            "detector_hidden": detector_queries[pos_pred_idx[0], pos_pred_idx[1]],
++            "detector_query_idx": detector_query_indices[
++                pos_pred_idx[0], pos_pred_idx[1]
++            ],
+         }
+ 
+         # Step 3: build SAM2 backbone features and store them in `feature_cache`
+--- a/sam3/model/video_tracking_multiplex.py
++++ b/sam3/model/video_tracking_multiplex.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ from collections import defaultdict
+ 
+ """
+@@ -1476,7 +1478,11 @@
+ 
+             # Construct the list of past object pointers
+             if self.use_obj_ptrs_in_encoder:
+-                max_obj_ptrs_in_encoder = min(num_frames, self.max_obj_ptrs_in_encoder)
++                max_obj_ptrs_in_encoder = (
++                    self.max_obj_ptrs_in_encoder
++                    if getattr(self, "strict_causal", False)
++                    else min(num_frames, self.max_obj_ptrs_in_encoder)
++                )
+                 # First add those object pointers from selected conditioning frames
+                 # (optionally, only include object pointers in the past during evaluation)
+                 if not self.training and self.only_obj_ptrs_in_the_past_for_eval:
+@@ -2756,8 +2762,10 @@
+         ):
+             return []
+ 
+-        max_num = min(
+-            num_frames, self.max_obj_ptrs_in_encoder
++        max_num = (
++            self.max_obj_ptrs_in_encoder
++            if getattr(self, "strict_causal", False)
++            else min(num_frames, self.max_obj_ptrs_in_encoder)
+         )  # maximum number of pointer memory frames to consider
+ 
+         if not track_in_reverse:
+--- a/sam3/model_builder.py
++++ b/sam3/model_builder.py
+@@ -1,3 +1,5 @@
++# Modifications copyright (c) 2026 The Sekai Authors.
++# Modifications are distributed under the SAM License in LICENSE.
+ # Copyright (c) Meta Platforms, Inc. and affiliates. All Rights Reserved
+ 
+ # pyre-unsafe
+@@ -10,6 +12,7 @@
+ import torch.nn as nn
+ from huggingface_hub import hf_hub_download
+ from iopath.common.file_io import g_pathmgr
++from sam3.checkpoint_loading import load_state_dict_with_report
+ from sam3.model.decoder import (
+     DecoupledTransformerDecoderLayerv2,
+     SimpleRoPEAttention,
+@@ -1079,6 +1082,9 @@
+     session_expiration_sec: int = 1200,
+     default_output_prob_thresh: float = 0.5,
+     async_loading_frames: bool = True,
++    strict_causal: bool = False,
++    slot_observer=None,
++    strict_research_checkpoint: bool = False,
+ ):
+     """
+     Build a fully-initialized Sam3MultiplexVideoPredictor.
+@@ -1100,6 +1106,11 @@
+         session_expiration_sec: Session expiration timeout in seconds
+         default_output_prob_thresh: Default probability threshold for output masks
+         async_loading_frames: Whether to load frames asynchronously
++        strict_causal: Process the current frame with forward propagation.
++        slot_observer: Optional callable notified after stable-ID association and
++            current-frame output construction.
++        strict_research_checkpoint: Require matching checkpoint keys and
++            attach the key-coverage report.
+ 
+     Returns:
+         Sam3MultiplexVideoPredictor: The fully-initialized predictor
+@@ -1108,6 +1119,11 @@
+         bpe_path = pkg_resources.resource_filename(
+             "sam3", "assets/bpe_simple_vocab_16e6.txt.gz"
+         )
++
++    if strict_causal:
++
++
++        async_loading_frames = False
+ 
+     from sam3.model.sam3_multiplex_base import Sam3MultiplexPredictorWrapper
+     from sam3.model.sam3_multiplex_detector import Sam3MultiplexDetector
+@@ -1172,7 +1188,7 @@
+         det_nms_use_iom=True,
+         assoc_iou_thresh=0.1,
+         new_det_thresh=0.65,
+-        hotstart_delay=15,
++        hotstart_delay=0 if strict_causal else 15,
+         hotstart_unmatch_thresh=8,
+         hotstart_dup_thresh=8,
+         suppress_unmatched_only_within_hotstart=False,
+@@ -1182,13 +1198,15 @@
+         recondition_every_nth_frame=16,
+         use_iom_recondition=True,
+         iom_thresh_recondition=0.5,
+-        masklet_confirmation_enable=True,
++        masklet_confirmation_enable=not strict_causal,
+         reconstruction_bbox_iou_thresh=-1,
+         reconstruction_bbox_det_score=0.8,
+         max_num_objects=max_num_objects,
+-        postprocess_batch_size=16,
+-        use_batched_grounding=True,
+-        batched_grounding_batch_size=16,
++        postprocess_batch_size=1 if strict_causal else 16,
++        use_batched_grounding=not strict_causal,
++        batched_grounding_batch_size=1 if strict_causal else 16,
++        strict_causal=strict_causal,
++        slot_observer=slot_observer,
+         max_num_kboxes=0,
+         sprinkle_removal_area=0,
+         is_multiplex=True,
+@@ -1220,13 +1238,21 @@
+                     new_k = "tracker." + k[len("sam2_predictor.") :]
+                 remapped_ckpt[new_k] = v
+             ckpt = remapped_ckpt
+-        missing_keys, unexpected_keys = demo_model.load_state_dict(ckpt, strict=False)
++        checkpoint_load_report = load_state_dict_with_report(
++            demo_model,
++            ckpt,
++            component="sam3_multiplex_demo_model",
++            require_exact=strict_research_checkpoint,
++        )
++        missing_keys = checkpoint_load_report["missing_keys"]
++        unexpected_keys = checkpoint_load_report["unexpected_keys"]
+         if missing_keys:
+             print(f"Missing keys ({len(missing_keys)}): {missing_keys[:10]}...")
+         if unexpected_keys:
+             print(
+                 f"Unexpected keys ({len(unexpected_keys)}): {unexpected_keys[:10]}..."
+             )
++        demo_model.checkpoint_load_report = checkpoint_load_report
+ 
+     demo_model.cuda().eval()
+ 
+--- /dev/null
++++ b/sam3/checkpoint_loading.py
+@@ -0,0 +1,49 @@
++"""Checkpoint loading and parameter-key coverage.
++
++Copyright 2026 The Sekai Authors.
++Distributed under the SAM License in LICENSE.
++"""
++
++from typing import Any
++
++from torch import nn
++
++
++def load_state_dict_with_report(
++    model: nn.Module,
++    state_dict: dict[str, Any],
++    *,
++    component: str,
++    require_exact: bool = False,
++) -> dict[str, Any]:
++    """Load state_dict into model and return parameter-key coverage.
++
++    require_exact raises RuntimeError for missing or unexpected keys.
++    """
++    if not isinstance(state_dict, dict) or not state_dict:
++        raise TypeError("checkpoint state_dict must be a populated dictionary")
++    model_keys = set(model.state_dict())
++    missing_keys, unexpected_keys = model.load_state_dict(
++        state_dict, strict=False
++    )
++    missing = sorted(str(value) for value in missing_keys)
++    unexpected = sorted(str(value) for value in unexpected_keys)
++    matched = len(model_keys.difference(missing_keys))
++    report = {
++        "component": component,
++        "model_key_count": len(model_keys),
++        "checkpoint_key_count": len(state_dict),
++        "matched_model_key_count": matched,
++        "model_key_coverage": matched / max(1, len(model_keys)),
++        "missing_key_count": len(missing),
++        "unexpected_key_count": len(unexpected),
++        "missing_keys": missing,
++        "unexpected_keys": unexpected,
++        "exact_key_match": not missing and not unexpected,
++    }
++    if require_exact and not report["exact_key_match"]:
++        raise RuntimeError(
++            f"{component} checkpoint key mismatch: "
++            f"missing={len(missing)} unexpected={len(unexpected)}"
++        )
++    return report
